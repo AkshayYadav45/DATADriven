@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG new reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-passed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\admin\AppData\Local\Temp\testng-eclipse--1230425842\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">25 methods,   25 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(tanaji yadav, 9970290012)">registerPage(tanaji yadav, 9970290012)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sangram ambavade, 8763799200)">registerPage(sangram ambavade, 8763799200)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(ravindra , 8600380305)">registerPage(ravindra , 8600380305)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sachin raskar, 7058613064)">registerPage(sachin raskar, 7058613064)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sanjay yadav , 9850122091)">registerPage(sanjay yadav , 9850122091)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(raju raskar, 8698875392)">registerPage(raju raskar, 8698875392)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sharad chavan, 9766659655)">registerPage(sharad chavan, 9766659655)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(ramchandra karkate, 9822373900)">registerPage(ramchandra karkate, 9822373900)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(randhrir arjun yadav, 9881445799)">registerPage(randhrir arjun yadav, 9881445799)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(pradeep yadav, 9224261901)">registerPage(pradeep yadav, 9224261901)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(rajendra tekale, 9552152305)">registerPage(rajendra tekale, 9552152305)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(pruthviraj garud , 9595233434)">registerPage(pruthviraj garud , 9595233434)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(uttam madhukar kambale, 8446005837)">registerPage(uttam madhukar kambale, 8446005837)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sanjay ravsaheb yadav , 9503276754)">registerPage(sanjay ravsaheb yadav , 9503276754)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(ravindra mali, 9923038252)">registerPage(ravindra mali, 9923038252)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sanjay pawar, 7028607373)">registerPage(sanjay pawar, 7028607373)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(anil yadav, 7588085397)">registerPage(anil yadav, 7588085397)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(uddhav sandippan garud, 8888673304)">registerPage(uddhav sandippan garud, 8888673304)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sachin vilas yadav, 9975504793)">registerPage(sachin vilas yadav, 9975504793)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(shekhar bhausaheb yadav, 7875104223)">registerPage(shekhar bhausaheb yadav, 7875104223)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(rajendra dhanajirao yadav, 9421132331)">registerPage(rajendra dhanajirao yadav, 9421132331)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(ravindra baburao yadav, 8530752452)">registerPage(ravindra baburao yadav, 8530752452)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(ramjan daulat mulani, 9665563461)">registerPage(ramjan daulat mulani, 9665563461)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(sunil bhimrao yadav, 9881758080)">registerPage(sunil bhimrao yadav, 9881758080)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="pkg.pag" hash-for-method="registerPage(pralhad tatyaso yadav, 9325148179)">registerPage(pralhad tatyaso yadav, 9325148179)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pkg.pag</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(tanaji yadav, 9970290012)">
+                  </a> <!-- registerPage(tanaji yadav, 9970290012) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(tanaji yadav, 9970290012)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sangram ambavade, 8763799200)">
+                  </a> <!-- registerPage(sangram ambavade, 8763799200) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sangram ambavade, 8763799200)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(ravindra , 8600380305)">
+                  </a> <!-- registerPage(ravindra , 8600380305) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(ravindra , 8600380305)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sachin raskar, 7058613064)">
+                  </a> <!-- registerPage(sachin raskar, 7058613064) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sachin raskar, 7058613064)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sanjay yadav , 9850122091)">
+                  </a> <!-- registerPage(sanjay yadav , 9850122091) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sanjay yadav , 9850122091)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(raju raskar, 8698875392)">
+                  </a> <!-- registerPage(raju raskar, 8698875392) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(raju raskar, 8698875392)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sharad chavan, 9766659655)">
+                  </a> <!-- registerPage(sharad chavan, 9766659655) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sharad chavan, 9766659655)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(ramchandra karkate, 9822373900)">
+                  </a> <!-- registerPage(ramchandra karkate, 9822373900) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(ramchandra karkate, 9822373900)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(randhrir arjun yadav, 9881445799)">
+                  </a> <!-- registerPage(randhrir arjun yadav, 9881445799) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(randhrir arjun yadav, 9881445799)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(pradeep yadav, 9224261901)">
+                  </a> <!-- registerPage(pradeep yadav, 9224261901) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(pradeep yadav, 9224261901)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(rajendra tekale, 9552152305)">
+                  </a> <!-- registerPage(rajendra tekale, 9552152305) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(rajendra tekale, 9552152305)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(pruthviraj garud , 9595233434)">
+                  </a> <!-- registerPage(pruthviraj garud , 9595233434) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(pruthviraj garud , 9595233434)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(uttam madhukar kambale, 8446005837)">
+                  </a> <!-- registerPage(uttam madhukar kambale, 8446005837) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(uttam madhukar kambale, 8446005837)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sanjay ravsaheb yadav , 9503276754)">
+                  </a> <!-- registerPage(sanjay ravsaheb yadav , 9503276754) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sanjay ravsaheb yadav , 9503276754)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(ravindra mali, 9923038252)">
+                  </a> <!-- registerPage(ravindra mali, 9923038252) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(ravindra mali, 9923038252)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sanjay pawar, 7028607373)">
+                  </a> <!-- registerPage(sanjay pawar, 7028607373) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sanjay pawar, 7028607373)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(anil yadav, 7588085397)">
+                  </a> <!-- registerPage(anil yadav, 7588085397) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(anil yadav, 7588085397)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(uddhav sandippan garud, 8888673304)">
+                  </a> <!-- registerPage(uddhav sandippan garud, 8888673304) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(uddhav sandippan garud, 8888673304)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sachin vilas yadav, 9975504793)">
+                  </a> <!-- registerPage(sachin vilas yadav, 9975504793) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sachin vilas yadav, 9975504793)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(shekhar bhausaheb yadav, 7875104223)">
+                  </a> <!-- registerPage(shekhar bhausaheb yadav, 7875104223) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(shekhar bhausaheb yadav, 7875104223)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(rajendra dhanajirao yadav, 9421132331)">
+                  </a> <!-- registerPage(rajendra dhanajirao yadav, 9421132331) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(rajendra dhanajirao yadav, 9421132331)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(ravindra baburao yadav, 8530752452)">
+                  </a> <!-- registerPage(ravindra baburao yadav, 8530752452) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(ravindra baburao yadav, 8530752452)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(ramjan daulat mulani, 9665563461)">
+                  </a> <!-- registerPage(ramjan daulat mulani, 9665563461) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(ramjan daulat mulani, 9665563461)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(sunil bhimrao yadav, 9881758080)">
+                  </a> <!-- registerPage(sunil bhimrao yadav, 9881758080) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(sunil bhimrao yadav, 9881758080)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="registerPage(pralhad tatyaso yadav, 9325148179)">
+                  </a> <!-- registerPage(pralhad tatyaso yadav, 9325148179) -->
+                  <span class="method-name">registerPage</span>
+                  <span class="parameters">(pralhad tatyaso yadav, 9325148179)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\admin\AppData\Local\Temp\testng-eclipse--1230425842\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Default suite&quot;&gt;
+  &lt;test verbose=&quot;2&quot; name=&quot;Default test&quot; preserve-order=&quot;true&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pkg.pag&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(25);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'registerPage')
+data.setCell(0, 2, 'pkg.pag')
+data.setCell(0, 3, 11142);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'registerPage')
+data.setCell(1, 2, 'pkg.pag')
+data.setCell(1, 3, 10800);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'registerPage')
+data.setCell(2, 2, 'pkg.pag')
+data.setCell(2, 3, 10287);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'registerPage')
+data.setCell(3, 2, 'pkg.pag')
+data.setCell(3, 3, 10044);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'registerPage')
+data.setCell(4, 2, 'pkg.pag')
+data.setCell(4, 3, 9598);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'registerPage')
+data.setCell(5, 2, 'pkg.pag')
+data.setCell(5, 3, 9492);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'registerPage')
+data.setCell(6, 2, 'pkg.pag')
+data.setCell(6, 3, 9161);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'registerPage')
+data.setCell(7, 2, 'pkg.pag')
+data.setCell(7, 3, 9060);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'registerPage')
+data.setCell(8, 2, 'pkg.pag')
+data.setCell(8, 3, 8877);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'registerPage')
+data.setCell(9, 2, 'pkg.pag')
+data.setCell(9, 3, 8775);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'registerPage')
+data.setCell(10, 2, 'pkg.pag')
+data.setCell(10, 3, 8742);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'registerPage')
+data.setCell(11, 2, 'pkg.pag')
+data.setCell(11, 3, 8623);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'registerPage')
+data.setCell(12, 2, 'pkg.pag')
+data.setCell(12, 3, 8536);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'registerPage')
+data.setCell(13, 2, 'pkg.pag')
+data.setCell(13, 3, 8332);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'registerPage')
+data.setCell(14, 2, 'pkg.pag')
+data.setCell(14, 3, 8303);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'registerPage')
+data.setCell(15, 2, 'pkg.pag')
+data.setCell(15, 3, 8303);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'registerPage')
+data.setCell(16, 2, 'pkg.pag')
+data.setCell(16, 3, 8245);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'registerPage')
+data.setCell(17, 2, 'pkg.pag')
+data.setCell(17, 3, 8214);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'registerPage')
+data.setCell(18, 2, 'pkg.pag')
+data.setCell(18, 3, 8206);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'registerPage')
+data.setCell(19, 2, 'pkg.pag')
+data.setCell(19, 3, 8185);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'registerPage')
+data.setCell(20, 2, 'pkg.pag')
+data.setCell(20, 3, 8129);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'registerPage')
+data.setCell(21, 2, 'pkg.pag')
+data.setCell(21, 3, 8084);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'registerPage')
+data.setCell(22, 2, 'pkg.pag')
+data.setCell(22, 3, 8031);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'registerPage')
+data.setCell(23, 2, 'pkg.pag')
+data.setCell(23, 3, 8009);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'registerPage')
+data.setCell(24, 2, 'pkg.pag')
+data.setCell(24, 3, 7951);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pkg.pag</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">openBrowser</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">registerPage(ravindra , 8600380305)</span>
+                <span class="method-start">17810 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(ramjan daulat mulani, 9665563461)</span>
+                <span class="method-start">26873 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(rajendra dhanajirao yadav, 9421132331)</span>
+                <span class="method-start">35412 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(pradeep yadav, 9224261901)</span>
+                <span class="method-start">43716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(pralhad tatyaso yadav, 9325148179)</span>
+                <span class="method-start">51803 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(pruthviraj garud , 9595233434)</span>
+                <span class="method-start">59755 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(rajendra tekale, 9552152305)</span>
+                <span class="method-start">67965 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(raju raskar, 8698875392)</span>
+                <span class="method-start">76153 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(ramchandra karkate, 9822373900)</span>
+                <span class="method-start">84487 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(randhrir arjun yadav, 9881445799)</span>
+                <span class="method-start">92704 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(ravindra baburao yadav, 8530752452)</span>
+                <span class="method-start">100950 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(ravindra mali, 9923038252)</span>
+                <span class="method-start">109080 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sachin raskar, 7058613064)</span>
+                <span class="method-start">117114 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sachin vilas yadav, 9975504793)</span>
+                <span class="method-start">125126 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sangram ambavade, 8763799200)</span>
+                <span class="method-start">133430 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sanjay yadav , 9850122091)</span>
+                <span class="method-start">143476 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sanjay pawar, 7028607373)</span>
+                <span class="method-start">152970 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sanjay ravsaheb yadav , 9503276754)</span>
+                <span class="method-start">162572 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(anil yadav, 7588085397)</span>
+                <span class="method-start">173716 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(shekhar bhausaheb yadav, 7875104223)</span>
+                <span class="method-start">184005 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sharad chavan, 9766659655)</span>
+                <span class="method-start">194806 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(sunil bhimrao yadav, 9881758080)</span>
+                <span class="method-start">203684 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(tanaji yadav, 9970290012)</span>
+                <span class="method-start">212427 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(uddhav sandippan garud, 8888673304)</span>
+                <span class="method-start">221203 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">registerPage(uttam madhukar kambale, 8446005837)</span>
+                <span class="method-start">229827 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

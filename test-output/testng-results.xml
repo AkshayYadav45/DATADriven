@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="25" passed="25">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="222254" started-at="2020-06-25T18:33:14Z" finished-at="2020-06-25T18:36:57Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="222254" started-at="2020-06-25T18:33:14Z" finished-at="2020-06-25T18:36:57Z">
+      <class name="pkg.pag">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:pkg.pag@6e1567f1]" name="openBrowser" is-config="true" duration-ms="16739" started-at="2020-06-25T18:32:58Z" finished-at="2020-06-25T18:33:14Z">
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="9060" started-at="2020-06-25T18:33:16Z" data-provider="sample" finished-at="2020-06-25T18:33:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravindra ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8600380305]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8536" started-at="2020-06-25T18:33:25Z" data-provider="sample" finished-at="2020-06-25T18:33:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramjan daulat mulani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9665563461]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8303" started-at="2020-06-25T18:33:33Z" data-provider="sample" finished-at="2020-06-25T18:33:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajendra dhanajirao yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9421132331]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8084" started-at="2020-06-25T18:33:41Z" data-provider="sample" finished-at="2020-06-25T18:33:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pradeep yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9224261901]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="7951" started-at="2020-06-25T18:33:50Z" data-provider="sample" finished-at="2020-06-25T18:33:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pralhad tatyaso yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9325148179]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8206" started-at="2020-06-25T18:33:57Z" data-provider="sample" finished-at="2020-06-25T18:34:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pruthviraj garud ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9595233434]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8185" started-at="2020-06-25T18:34:06Z" data-provider="sample" finished-at="2020-06-25T18:34:14Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajendra tekale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9552152305]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8332" started-at="2020-06-25T18:34:14Z" data-provider="sample" finished-at="2020-06-25T18:34:22Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[raju raskar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8698875392]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8214" started-at="2020-06-25T18:34:22Z" data-provider="sample" finished-at="2020-06-25T18:34:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ramchandra karkate]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9822373900]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8245" started-at="2020-06-25T18:34:30Z" data-provider="sample" finished-at="2020-06-25T18:34:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[randhrir arjun yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9881445799]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8129" started-at="2020-06-25T18:34:39Z" data-provider="sample" finished-at="2020-06-25T18:34:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravindra baburao yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8530752452]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8031" started-at="2020-06-25T18:34:47Z" data-provider="sample" finished-at="2020-06-25T18:34:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravindra mali]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9923038252]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8009" started-at="2020-06-25T18:34:55Z" data-provider="sample" finished-at="2020-06-25T18:35:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin raskar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7058613064]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8303" started-at="2020-06-25T18:35:03Z" data-provider="sample" finished-at="2020-06-25T18:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sachin vilas yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9975504793]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="10044" started-at="2020-06-25T18:35:11Z" data-provider="sample" finished-at="2020-06-25T18:35:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sangram ambavade]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8763799200]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="9492" started-at="2020-06-25T18:35:21Z" data-provider="sample" finished-at="2020-06-25T18:35:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjay yadav ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9850122091]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="9598" started-at="2020-06-25T18:35:31Z" data-provider="sample" finished-at="2020-06-25T18:35:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjay pawar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7028607373]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="11142" started-at="2020-06-25T18:35:40Z" data-provider="sample" finished-at="2020-06-25T18:35:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sanjay ravsaheb yadav ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9503276754]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="10287" started-at="2020-06-25T18:35:51Z" data-provider="sample" finished-at="2020-06-25T18:36:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anil yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7588085397]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="10800" started-at="2020-06-25T18:36:02Z" data-provider="sample" finished-at="2020-06-25T18:36:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shekhar bhausaheb yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[7875104223]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8877" started-at="2020-06-25T18:36:13Z" data-provider="sample" finished-at="2020-06-25T18:36:21Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sharad chavan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9766659655]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8742" started-at="2020-06-25T18:36:21Z" data-provider="sample" finished-at="2020-06-25T18:36:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[sunil bhimrao yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9881758080]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8775" started-at="2020-06-25T18:36:30Z" data-provider="sample" finished-at="2020-06-25T18:36:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tanaji yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[9970290012]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="8623" started-at="2020-06-25T18:36:39Z" data-provider="sample" finished-at="2020-06-25T18:36:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uddhav sandippan garud]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8888673304]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+        <test-method status="PASS" signature="registerPage(java.lang.String, java.lang.String)[pri:0, instance:pkg.pag@6e1567f1]" name="registerPage" duration-ms="9161" started-at="2020-06-25T18:36:48Z" data-provider="sample" finished-at="2020-06-25T18:36:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[uttam madhukar kambale]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8446005837]]>
+              </value>
+            </param>
+          </params>
+        </test-method> <!-- registerPage -->
+      </class> <!-- pkg.pag -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
