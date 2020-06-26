@@ -34,8 +34,7 @@ public class pag extends BaseClass {
 		driver.findElement(By.xpath("//textarea[@name='acIssues']")).sendKeys("शासकीय नोकर भरती झाली पाहिजे..");
 		driver.findElement(By.xpath("//textarea[@name='irrigIssues']")).sendKeys(" कड़ेगाव तालुक्यामध्ये काही ठिकाणी अजून पाणी नाही. ..");
 		driver.findElement(By.xpath("//textarea[@name='partyIssues']")).sendKeys("जयंत पाटील  साहेब हे एक सशम नेतृत्व आहेत. त्यानी अजून चांगल्या रीतिने  पुढाकार घ्यावा..");
-		driver.findElement(By.xpath("//button[@type='submit']")).click();
-		
+		driver.findElement(By.xpath("//button[@type='submit']")).click();		
 		for(int i=0;i<=0;i++) {
 			all.get(0).click();
 			all.get(4).click();			
